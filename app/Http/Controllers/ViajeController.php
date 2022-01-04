@@ -58,7 +58,7 @@ class ViajeController extends Controller
             'titulo' => 'required|min:10',
             'topic_places' => 'required',
             'description' => 'required',
-            'picture' => 'required|image|max:3500',
+            'picture' => 'required|image|max:6000',
             'cost' => 'required|numeric|min:0',
             'days' => 'required|numeric|min:1',
             'categoria' => 'required',
