@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="mt-4">
-                <button type="submit" class="btn btn-primary text-white">+ Agregar viaje.</button>
+                <button type="submit" class="btn btn-primary">+ Agregar viaje.</button>
             </div>
         </form>
     </section>
