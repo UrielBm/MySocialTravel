@@ -4,7 +4,7 @@ return [
     'name' => 'LaravelPWA',
     'manifest' => [
         'name' => env('APP_NAME', 'Social travel App'),
-        'short_name' => 'PWA',
+        'short_name' => 'TravelApp',
         'start_url' => '/',
         'background_color' => '#eeebdd',
         'theme_color' => '#3e2c41',
