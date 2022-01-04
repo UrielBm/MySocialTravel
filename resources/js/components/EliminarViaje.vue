@@ -9,7 +9,7 @@ export default {
         async handleResponse (){
              try {
                 const params = { id: this.viajeId }
-                await axios.post(`/mis_viajes/${this.viajeId}`,{params, _method: 'delete'});
+                await axios.delete(`/mis_viajes/${this.viajeId}`,{params, _method: 'delete'});
                 //eliminando elemnto del DOM
                 this.$el.parentNode.parentNode.parentNode.parentNode.removeChild(this.$el.parentNode.parentNode.parentNode);
                 this.$swal({

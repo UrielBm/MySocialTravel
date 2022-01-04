@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Viaje;
 use Illuminate\Http\Request;
 use App\Models\CategoriaViaje;
+use Illuminate\Support\Facades\DB;
 use Intervention\Image\Facades\Image;
 
 class ViajeController extends Controller
@@ -179,6 +180,8 @@ class ViajeController extends Controller
     {
         //verificando permisos  usuario que lo creo para eliminar
         $this->authorize('delete', $viaje);
+        //eliminado relación de likes y viajes.
+        DB::table('likes_viaje')->where('viaje_id', $viaje->id)->delete();
 
         //eliminando el viaje 
         $viaje->delete();
