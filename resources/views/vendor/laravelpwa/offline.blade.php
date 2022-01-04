@@ -7,7 +7,7 @@
 <div class="container">
     <p class="errorText">¡Upss!, imposible de establecer conexión, intenta de nuevo más tarde シ.</p>
     <div class="d-flex justify-content-center">
-        <img src="{{asset('images/outline_image.gif')}}" alt="imagen offline" />
+        <div class="spinner"></div>
     </div>
 </div>
 @endsection
