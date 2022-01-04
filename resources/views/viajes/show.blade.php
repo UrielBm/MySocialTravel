@@ -7,6 +7,7 @@
         $update = $viaje->updated_at;
         @endphp
         <h1 class="display-md-4 text-center text-warning Capital mb-4 title">{{$viaje->titulo}}</h1>
+        <share-button></share-button>
         <div class="wrapperImg mb-4">
             <img src="/storage/{{$viaje->picture}}"  class="w-100 rounded-2" alt="trip picture"/>
         </div>

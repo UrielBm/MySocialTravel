@@ -27,6 +27,7 @@ window.Vue = require("vue").default;
 
 Vue.use(VueSweetalert2);
 
+Vue.component("share-button", require("./components/ShareButton.vue").default);
 Vue.component("fecha-viaje", require("./components/FechaViaje.vue").default);
 Vue.component(
     "button-delete",
