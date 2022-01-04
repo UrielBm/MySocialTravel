@@ -12,6 +12,7 @@
                     </svg> Perfil.
                 </a>
             </div>
+            <share-button></share-button>
         </div>
         @endif
     @endauth
