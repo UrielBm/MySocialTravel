@@ -11496,6 +11496,14 @@ div {
   }
 }
 
+.description a {
+  color: #003865;
+}
+
+.animated:hover {
+  transform: scale(105%);
+}
+
 .heart, .heartCard {
   fill: #e78a8a;
   position: relative;

@@ -1,8 +1,8 @@
 @php
     $fecha = $viaje->created_at;
 @endphp
-    <div class="col-md-4 mt-4">
-        <div class="card shadow">
+    <div class="col-md-4 mt-4 d-flex justify-content-between  flex-wrap">
+        <div class="card shadow animated">
             <img class="card-img-top" src="/storage/{{$viaje->picture}}" alt="foto del viaje" />
                 <div class="card-body">
                     <h5 class="card-title">{{$viaje->titulo}}</h5>

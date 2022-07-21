@@ -70,7 +70,7 @@
     <section id="trips" class="container">
         <h2 class="display-6 text-center title">Viajes de {{$perfil->user->name}}</h2>
         @if( sizeof($viajes) > 0 )
-        <div class="d-flex justify-content-between align-items-center flex-wrap my-4">
+        <div class="d-flex justify-content-between  flex-wrap my-4">
             @foreach ($viajes as $viaje)
                 <div class="card" style="width: 22rem; margin-top:1rem">
                     <img class="card-img-top" src="/storage/{{$viaje->picture}}" alt="foto del viaje">

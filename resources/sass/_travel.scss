@@ -182,3 +182,13 @@ div {
         height: 22rem;
     }
 }
+.description {
+    a {
+        color: #003865;
+    }
+}
+.animated {
+    &:hover {
+        transform: scale(105%);
+    }
+}

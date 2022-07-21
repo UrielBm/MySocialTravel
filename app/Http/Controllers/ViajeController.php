@@ -154,6 +154,12 @@ class ViajeController extends Controller
 
         //si sube una nueva imagen
         if (request('picture')) {
+            
+            //eliminando picture anterior del viaje 
+            $imageName = $viaje->picture;
+            $deleteImage = (public_path("storage/".$imageName));
+            unlink($deleteImage);
+            
             //Ruta de la imagen en nuestro servidor
             $ruta_imagen = $request['picture']->store('upload-viajes', 'public');
 
@@ -180,6 +186,12 @@ class ViajeController extends Controller
     {
         //verificando permisos  usuario que lo creo para eliminar
         $this->authorize('delete', $viaje);
+        
+        //eliminar image del viaje del servidor
+        $imageName = $viaje->picture;
+        $deleteImage = (public_path("storage/".$imageName));
+        unlink($deleteImage);
+
         //eliminado relación de likes y viajes.
         DB::table('likes_viaje')->where('viaje_id', $viaje->id)->delete();
 
