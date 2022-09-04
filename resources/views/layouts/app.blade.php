@@ -59,7 +59,7 @@
                             <li class="nav-item dropdown">
 
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                   <img src="/storage/{{Auth::user()->perfil->avatar ? Auth::user()->perfil->avatar  : "/upload-perfiles/usuario.png"}}" class="rounded-circle" style="width: 2.5rem" /> {{ Auth::user()->name }}
+                                   <img src="/storage/{{Auth::user()->perfil->avatar ? Auth::user()->perfil->avatar  : "/default/usuario.png"}}" class="rounded-circle" style="width: 2.5rem" /> {{ Auth::user()->name }}
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

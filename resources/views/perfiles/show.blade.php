@@ -27,7 +27,7 @@
                    </div>
                     @else 
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="/storage/upload-perfiles/usuario.png" class="w-100 rounded-circle" alt="avatar delfault" />    
+                        <img src="/storage/default/usuario.png" class="w-100 rounded-circle" alt="avatar delfault" />    
                     </div>
                     @endif
                 </div>
