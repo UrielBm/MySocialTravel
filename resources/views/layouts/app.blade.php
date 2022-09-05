@@ -11,7 +11,7 @@
     <!--OG TAGS -->
     <meta property="og:title" content="Social Travel." />
     <meta property="og:description" content="publica tus mejores viajes,¿qué hiciste cómo lo hiciste? las fotos del viaje cuanto duro crea tu perfil y comparte al mundo tu forma de viajar" />
-    <meta property="og:image" content="https://images.unsplash.com/photo-1588557132645-ff567110cafd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1532105111962-e23707867985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="travel" />
