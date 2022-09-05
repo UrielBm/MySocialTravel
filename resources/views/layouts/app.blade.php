@@ -3,7 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="author" content="Uriel Benítez Medina" />
+    <meta
+      name="description"
+      content="Web app de viajes, ven y publica tu viaje, que haces en redes y tus mejores fotos del viaje todo asociado a tu perfil"
+    />
+    <!--OG TAGS -->
+    <meta property="og:title" content="Social Travel." />
+    <meta property="og:description" content="publica tus mejores viajes,¿qué hiciste cómo lo hiciste? las fotos del viaje cuanto duro crea tu perfil y comparte al mundo tu forma de viajar" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1588557132645-ff567110cafd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="travel" />
+    <meta propertty="og:locale" content="es_MX" />
+    <meta property="og:url" content="http://mysocialtravel.ga/" />
+    <meta property="og:type" content="website" />
+    <!--Twitter OG TAGS-->
+    <meta property="twitter:side" content="@CouthUriel" />
+    <meta property="twitter:creator" content="@CouthUriel" />
+    <!--END Twitter OG TAGS-->
+    <!--End OG TAGS-->
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
